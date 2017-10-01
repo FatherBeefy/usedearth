@@ -1,0 +1,24 @@
+body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px
+}
+
+
+.splash {
+  position: relative; float:left; background-image: url(wood.jpg);
+  z-index:0;left:0;top:0;width:100%;height:500px;
+  text-align: center;
+}
+.title {
+  font-size: 90px; font-family: 'Arvo', serif;
+  color: white;
+  letter-spacing: 3px;
+
+}
+.subtitle {
+  font-size: 30px;
+  color: white;
+  font-family: 'Damion', serif;
+}
