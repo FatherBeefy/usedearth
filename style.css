@@ -1,14 +1,15 @@
+
 body {
  margin-top: 0px;
- margin-right: 0px;
+ margin-right: 50px;
  margin-bottom: 0px;
- margin-left: 0px
+ margin-left: 50px;
 }
 
 
 .splash {
   position: relative; float:left; background-image: url(wood.jpg);
-  z-index:0;left:0;top:0;width:100%;height:500px;
+  z-index:0;left:0;top:0;width:1000px;height:500px;
   text-align: center;
 }
 .title {
@@ -21,4 +22,47 @@ body {
   font-size: 30px;
   color: white;
   font-family: 'Damion', serif;
+}
+
+.container {
+
+  position: relative; float: left; width: 1000px; height: 600px;
+  background-image: url(wood.jpg);
+}
+
+.pic-top-left {
+  float: left;
+  height: 300px; width: 300px;
+
+}
+
+.pic-top-center {
+  position: absolute; left: 300px; top: 0;
+  float: left;
+  height: 200px; width: 400px;
+}
+.pic-right {
+  float: left; background-color: orange;
+  height: 500px; width: 300px;
+  position: absolute; right: 0;
+}
+.pic-left-bottom {
+  float: left;
+  height: 200px; width: 300px;
+  position: absolute; bottom: 142px; left: 0;
+}
+.pic-bottom-center {
+  float: left;
+  position: absolute; bottom: 35px; left: 300px;
+  height: auto; width: 400px;
+
+}
+
+
+/*Does not apply an explicit width or height to the image tag. */
+img {
+  max-width: 100%;
+  border: none;
+  object-fit: contain;
+  float: left;
 }
